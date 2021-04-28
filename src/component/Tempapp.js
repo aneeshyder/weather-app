@@ -38,7 +38,7 @@ const Tempapp = () => {
                 <>
                 <div className="info">
                     <h2 className="location"><i class="fas fa-map-marker-alt"></i> {search}, {sysinfo.country}</h2>                    
-                    <div className="weather-img"><img src={"http://openweathermap.org/img/wn/" + weainfo[0].icon + "@2x.png"} /></div>
+                    <div className="weather-img"><img src={"http://openweathermap.org/img/wn/" + weainfo[0].icon + "@2x.png"} alt="weather" /></div>
                     <p className="weather-name">{weainfo[0].description}</p>
                     
                     <h1 className="temp">{city.temp}°cel</h1>
