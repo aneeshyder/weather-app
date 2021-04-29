@@ -42,7 +42,7 @@ const Tempapp = () => {
                     <p className="weather-name">{weainfo[0].description}</p>
                     
                     <h1 className="temp">{city.temp}°cel</h1>
-                    <p className="temp_min_max"><i class="fa fa-arrow-down"></i> {city.temp_min}°cel <i class="fa fa-arrow-up"></i> {city.temp_max}°cel</p>
+                    <p className="temp_min_max">Feel like {city.feels_like}°cel</p>
 
                 </div>
                 </>
